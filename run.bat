@@ -1,4 +1,5 @@
 @echo off
+
 setlocal EnableDelayedExpansion
 echo Compilation du projet exFinal...
 javac "@Compile.list" -d ./Class

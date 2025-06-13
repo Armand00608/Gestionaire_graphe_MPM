@@ -3,14 +3,22 @@ Metier/Mpm.java
 Metier/CheminCritique.java
 Metier/Erreur.java
 
+
 Ihm/Arc.java
 Ihm/Noeud.java
-Ihm/BtnPanel.java
-Ihm/BarreMenu.java
-Ihm/MPMGrapheAuto.java
-Ihm/FrameMpm.java
-Ihm/PanelAjout.java
-Ihm/FrameMpm.java
-Ihm/FrameNoeudInfo.java
+
+Ihm/Graphe/MPMGrapheAuto.java
+Ihm/Graphe/FrameMpm.java
+Ihm/Graphe/BtnPanel.java
+Ihm/Graphe/BarreMenu.java
+
+
+
+Ihm/Ajout/FrameAjout.java
+Ihm/Ajout/PanelAjout.java
+
+Ihm/NoeudInfo/FrameNoeudInfo.java
+Ihm/NoeudInfo/PanelNoeudInfo.java
+
 
 Controleur.java

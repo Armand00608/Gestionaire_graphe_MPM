@@ -70,7 +70,11 @@ public class Controleur
 	 * Retourne la liste des chemins critiques
 	 * @return ArrayList des chemins critiques
 	 */
-	public ArrayList<CheminCritique> getCheminCritiques( ) { return  this.metier.getCheminsCritiques();}
+	public ArrayList<CheminCritique> getCheminCritiques( ) 
+	{ 
+		System.out.println(this.metier.getCheminsCritiques());
+		return  this.metier.getCheminsCritiques();
+	}
 
 	/**
 	 * Recherche une tâche par son nom

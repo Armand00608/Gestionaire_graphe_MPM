@@ -22,7 +22,7 @@ public class CreerGraphe
 		int startX  = 5;
 		int startY  = 375;
 		int distX   = boxSize + 100;
-		int distY   = boxSize;
+		int distY   = boxSize + 100;
 
 		// Construction du dictionnaire colonne -> nœuds
 		HashMap<Integer, ArrayList<Noeud>> dicColNoeud = new HashMap<>();
